@@ -1,4 +1,5 @@
 # Balanced Brackets
+This a TDD implementation of a bracket balancing helper which ensures all brackets in a file are balanced with opening and closing brackets.
 
 ## The Kata
 Take an input string with X opening brackets [ and Y closing brackets ], in a random order.
