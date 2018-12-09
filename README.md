@@ -22,3 +22,6 @@ Do not worry about input other than brackets and empty string.
 * ][ FAIL
 * ][][ FAIL
 * [][]][ FAIL
+
+##### Credit
+All credit goes to [Chillisoft](http://www.chillisoft.co.za/) who provided me with the Katas and the training to solve these problems.
