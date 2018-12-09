@@ -82,4 +82,15 @@ func TestCheck_GivenRandomOrderOfSquareBrackets_ShouldReturnNotOkay(t *testing.T
 	assert.False(t, okay)
 }
 
+func TestCheck_GivenAnotherRandomOrderOfSquareBrackets_ShouldReturnNotOkay(t *testing.T) {
+	// Arrange
+	input := "][][]][][]]["
+
+	// Act
+	okay := Check(input)
+
+	// Assert
+	assert.False(t, okay)
+}
+
 //TODO: Make this cater for round brackets and braces as well :)
